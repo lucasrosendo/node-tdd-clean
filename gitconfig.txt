@@ -1,0 +1,13 @@
+[user]
+	name = lucas
+	email = lucasrosendo91@gmail.com
+[push]
+  followTags = true
+[core]
+	editor = code --wait
+[alias]
+  s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+[safe]
+	directory = C:/Users/lucas/Mango/node-tdd-clean
